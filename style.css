@@ -1,0 +1,565 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: auto;
+    background-color: rgb(2, 2, 62);
+    color: #ffffff;
+}
+
+#Main-Div {
+    width: 50%;
+}
+
+/* ------------------------------------- Start Progress Bar Box Code ------------------------- */
+#Challenge-Progress-Show-Div {
+    border: rgb(72, 47, 155) solid 2px;
+    /* padding: 25px; */
+    padding-left: 59px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.progrees-bar-main-div {
+    margin-right: 100px;
+}
+
+.progress-bar {
+    width: 360px;
+    height: 12px;
+    background-color: #363654;
+    border-radius: 10px;
+}
+
+.progress {
+    width: 0%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.Progress-Number-Div {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(70, 70, 174);
+    border-radius: 50%;
+}
+
+.Progress-Number-Div h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------- End Progress Bar Box Code ------------------------- */
+
+/* ------------------------------------- Start Input And Button Code ------------------------- */
+#input-and-button-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.input-div input {
+    background-color: rgb(20, 20, 59);
+    padding: 13px;
+    width: 200%;
+    height: 45px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: large;
+    border: rgb(72, 47, 155) solid 2px;
+    outline: none;
+}
+
+.button-div {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(70, 70, 174);
+    border-radius: 50%;
+}
+
+.button-div h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* ------------------------------------- End Input And Button Code ------------------------- */
+
+/* ------------------------------------- Start Task Code ------------------------- */
+
+/* .multiple-task{
+
+}
+.task{
+    margin-top: 30px;
+    display: flex;
+    background-color: transparent;
+    border: rgb(72, 47, 155) solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: none;
+}
+
+.task input{
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+.task p{
+    margin-left: 20px;
+    font-size: large;
+    margin-top: 3px;
+    width: 75% !important;
+}
+
+.task img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  margin: auto;
+}
+
+.editing-image{
+    margin-right: 20px;
+} */
+
+
+/* ------------------------------------- End Task Code ------------------------- */
+
+/* ------------------------------------- Start Media Query ------------------------- */
+
+
+@media only screen and (max-width : 1115px) {
+    .progrees-bar-main-div {
+        margin-right: 80px;
+        margin-left: -30px;
+    }
+
+    #Challenge-Progress-Show-Div {
+        width: 600px;
+    }
+
+    .input-div input {
+        margin-left: -20px;
+        width: 220%;
+    }
+
+    .button-div {
+        margin-left: 530px;
+        position: absolute;
+        
+    }
+
+    .task {
+        width: 107%;
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (max-width : 1100px) {
+
+    #Main-Div {
+        width: 60%;
+    }
+
+    .task {
+        width: 92%;
+    }
+
+
+}
+
+@media only screen and (max-width : 1070px) {
+
+    #Main-Div {
+        width: 65%;
+    }
+
+    .task {
+        width: 87%;
+    }
+
+}
+
+
+@media only screen and (max-width : 1030px) {
+
+    .task {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width : 1010px) {
+
+    .task {
+        width: 94%;
+    }
+
+}
+
+@media only screen and (max-width : 985px) {
+
+    .task {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width : 960px) {
+
+    .task {
+        width: 97%;
+    }
+
+}
+
+@media only screen and (max-width : 935px) {
+
+    .task {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (max-width : 920px) {
+
+    .task {
+        width: 101%;
+    }
+
+}
+
+@media only screen and (max-width : 900px) {
+
+    #Main-Div {
+        width: 70%;
+    }
+
+    .task {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width : 870px) {
+
+    .task {
+        width: 99%;
+    }
+
+}
+
+@media only screen and (max-width : 850px) {
+
+    .task {
+        width: 101%;
+    }
+
+}
+
+@media only screen and (max-width : 840px) {
+
+    #Main-Div {
+        width: 75%;
+    }
+
+    .task {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width : 820px) {
+
+    .task {
+        width: 98%;
+    }
+
+}
+
+@media only screen and (max-width : 795px) {
+
+    #Main-Div {
+        width: 80%;
+    }
+
+    .task {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width : 770px) {
+
+    .task {
+        width: 98%;
+    }
+
+}
+
+@media only screen and (max-width : 750px) {
+
+    #Main-Div {
+        width: 85%;
+    }
+
+    .task {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width : 725px) {
+
+    .task {
+        width: 98%;
+    }
+
+}
+
+@media only screen and (max-width : 717px) {
+
+    #Main-Div {
+        width: 90%;
+    }
+
+    .task {
+        width: 94%;
+    }
+
+}
+
+@media only screen and (max-width : 700px) {
+
+    .task {
+        width: 96%;
+    }
+
+}
+
+@media only screen and (max-width : 690px){
+
+    #Main-Div {
+        width: 50%;
+    }
+
+    #Challenge-Progress-Show-Div{
+        display: inline-block;
+        width: 300px;
+        padding-top: 200px;
+        height: 350px;
+        /* padding-left: 100px; */
+        border-radius: 15px;
+    }
+
+    .progrees-bar-main-div {
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+
+    .Progress-Number-Div{
+        height: 120px;
+        width: 120px;
+        position: relative;
+        bottom: 290px;
+        left: 24px;
+    }
+
+    .progrees-bar-main-div h1{
+        
+    }
+
+    .progrees-bar-main-div p{
+        
+    }
+
+    .progress-bar {
+        width: 240px;
+    
+    }
+
+    .input-div input{
+        width: 137%
+    }
+
+    .button-div {
+        margin-left: 330px;
+    }
+
+    #input-and-button-div{
+        margin-left: -32px;
+        margin-top: -10px;
+    }
+
+    .task {
+        width: 119%;
+        margin-left: -38px !important;
+    }
+}
+
+@media only screen and (max-width : 660px) {
+
+    .task {
+        width: 124%;
+    }
+
+}
+
+@media only screen and (max-width : 630px) {
+
+    #Main-Div {
+        width: 55%;
+    }
+
+    .task {
+        width: 119%;
+    }
+
+}
+
+@media only screen and (max-width : 610px) {
+
+    .task {
+        width: 124%;
+    }
+
+}
+
+@media only screen and (max-width : 585px) {
+    #Main-Div {
+        width: 60%;
+    }
+
+    .task {
+        width: 119%;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    #Main-Div {
+        width: 65%;
+    }
+
+    .task {
+        width: 114%;
+    }
+
+}
+
+@media only screen and (max-width : 530px) {
+    .task {
+        width: 123%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    #Main-Div {
+        width: 70%;
+    }
+
+    .task {
+        width: 117%;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    #Main-Div {
+        width: 75%;
+    }
+
+}
+
+@media only screen and (max-width : 450px) {
+    .input-div input{
+        width: 117%;
+    }
+
+    .button-div{
+        margin-left: 293px;
+    }
+
+    .task{
+        width: 114%;
+    }
+}
+
+@media only screen and (max-width : 430px) {
+    .task{
+        width: 117%;
+    }
+}
+
+@media only screen and (max-width : 420px){
+    .input-div input{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .button-div{
+        margin-left: 285px;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+
+    #Main-Div {
+        width: 80%;
+    }
+
+    .input-div input{
+        width: 87%;
+        margin-left: 5%;
+    }
+
+    .task {
+        width: 108%;
+        margin-left: -6px !important;
+    }
+
+    .button-div {
+        margin-left: 275px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #Main-Div {
+        width: 90%;
+    }
+
+    .task {
+        width: 97%;
+    }
+
+}
+
+@media only screen and (max-width: 365px) {
+
+    .task {
+        width: 103%;
+    }
+
+}
+
+/* ------------------------------------- End Media Query ------------------------- */
